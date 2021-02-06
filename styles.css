@@ -36,15 +36,28 @@ li {
 
 h1 {    
     font-weight: 800;
-    border: 5px;    
+    border: 5px; 
+    font-family: 'Monoton', cursive;
+     
+}
+
+h2 {
+    padding-bottom: 5px;
 }
 
 button {
     background-color: #e0dddc;
-    color: #333333;
-    height: 45px;
-    width: 220px;
+    color: #333333;    
+    width: 260px;
     border: none;
+    display: flex;    
+    justify-content: space-between;
+    padding: 17 10px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+    
   }
   
   .closing {
@@ -57,5 +70,10 @@ button {
   .toggledOn {
     background: #27e886;
     color: white;
+    
+  }
+
+  i{
+      font-size: x-large;
   }
   
