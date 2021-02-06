@@ -35,15 +35,29 @@
 //     button7.style.backgroundColor = "lightBlue"    
 // }
 
-let completedButtons = document.querySelectorAll(["data-number"]); 
-console.log(completedButtons);
+// let completedButtons = document.querySelectorAll("li"); 
 
-// buttonArray.addEventListener('click', markComplete);
-
-
-// console.log(buttonArray)
-  
-// function markComplete(index) {
-//     buttonArray[index].style.backgroundColor = "lightBlue"
+// for( let i = 0; i < completedButtons.length; i++ ) {
+// completedButtons[i].addEventListener('click',markComplete)
 // }
 
+// console.log(completedButtons);
+
+  
+// function markComplete(i) {
+//     completedButtons[i].style.backgroundColor = "lightBlue"
+    
+// }
+
+const buttons = document.querySelectorAll("button");
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("click", () => markComplete(i));
+}
+function markComplete(i) {
+    if (buttons[i].classList.contains("toggledOn")) {
+      buttons[i].classList.remove("toggledOn");
+    } else {
+      buttons[i].classList.add("toggledOn");
+    }
+  }
+  

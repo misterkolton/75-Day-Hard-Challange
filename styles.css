@@ -10,8 +10,8 @@ body {
     flex-direction: column;
     align-items: center;   
     height: 100vh;
-    background: linear-gradient(90deg, rgba(253,29,29,1) 50%, rgba(252,155,63,1) 100%, rgba(252,176,69,1) 100%);
-}
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,133,253,1) 74%);}
 
 .main-container {
     justify-content: center;
@@ -27,12 +27,7 @@ body {
 
 ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 2px;
-    
+      
 }
 
 li {
@@ -44,33 +39,23 @@ h1 {
     border: 5px;    
 }
 
-.bold {
-    font: bold;
-}
-
-.checklist-buttons {
-    display: grid;
-    align-content: center;
-    grid-template-columns: repeat(1, 200px);
-}
-button{
-    background-color: #333333;
-    color: white;
-    height: 50px;
+button {
+    background-color: #e0dddc;
+    color: #333333;
+    height: 45px;
     width: 220px;
-    border: none;    
-}
-
-button:hover {
-    background-color: lightblue;
-    cursor: pointer; /* Mouse pointer on hover */
-    opacity: 70%;
+    border: none;
   }
-
+  
   .closing {
     width: 180px;
     display: flex;
     text-align: center;
     font-size: small;
-    
   }
+  
+  .toggledOn {
+    background: #27e886;
+    color: white;
+  }
+  
