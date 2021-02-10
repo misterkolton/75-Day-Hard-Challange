@@ -54,10 +54,13 @@ button {
     justify-content: space-between;
     padding: 17 10px;
     font-family: 'Poppins', sans-serif;
-    
-    
-    
-    
+    border-radius: 6px;
+    cursor: pointer; /* Mouse pointer on hover */
+      
+  }
+
+  button:hover {
+    background-color: #00ffbf;
   }
   
   .closing {
@@ -68,12 +71,11 @@ button {
   }
   
   .toggledOn {
-    background: #27e886;
+    background: #00ffbf;
     color: white;
-    
   }
-
-  i{
-      font-size: x-large;
+  
+  i {
+    font-size: x-large;
   }
   
