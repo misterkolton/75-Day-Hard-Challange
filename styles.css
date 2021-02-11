@@ -69,7 +69,7 @@
     border: none;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 5 15px;
     font-family: "Poppins", sans-serif;
     border-radius: 6px;
     cursor: pointer; /* Mouse pointer on hover */
@@ -78,6 +78,8 @@
   
   button:hover {
     background-color: #00ffbf;
+
+    
   }
   
   .closing {
